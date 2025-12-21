@@ -1,0 +1,93 @@
+"""Git ignore rules for MLOps project."""
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Data
+*.csv
+*.parquet
+*.json
+data/
+raw_data/
+processed_data/
+
+# Models
+*.pkl
+*.h5
+*.joblib
+models/
+mlruns/
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+.env.local
+
+# Airflow
+airflow/logs/
+airflow/dags/__pycache__/
+
+# Kubernetes
+k8s/kustomization.yaml
+k8s/patches/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# Docker
+.dockerignore
+
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Misc
+.cache/
+tmp/
+temp/
