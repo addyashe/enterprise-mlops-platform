@@ -9,7 +9,7 @@
 
 ### Step 1: Clone and Setup
 ```bash
-git clone https://github.com/techdevworks/enterprise-mlops-platform.git
+git clone https://github.com/addyashe/enterprise-mlops-platform.git
 cd enterprise-mlops-platform
 
 # Create virtual environment

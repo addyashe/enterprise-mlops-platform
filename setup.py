@@ -4,7 +4,7 @@ setup(
     name="enterprise-mlops-platform",
     version="1.0.0",
     description="Enterprise MLOps Platform with Feature Stores",
-    author="techdevworks",
+    author="addyashe",
     packages=find_packages(),
     python_requires=">=3.9",
     install_requires=[

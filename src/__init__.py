@@ -1,7 +1,7 @@
 """Enterprise MLOps Platform with Feature Stores."""
 
 __version__ = "1.0.0"
-__author__ = "techdevworks"
+__author__ = "addyashe"
 
 from src.feature_store.client import FeatureStoreClient
 from src.training.trainer import ModelTrainer
